@@ -18,9 +18,9 @@ namespace challenge.Services
         private readonly IEmployeeRepository _employeeRepository;
         
 
-        public ReportingStructureService(ILogger<ReportingStructureService> logger, IReportingStructureRepository reportingStructureRepository)
+        public ReportingStructureService(ILogger<ReportingStructureService> logger)
         {
-            _reportingStructureRepository = reportingStructureRepository;
+            //_reportingStructureRepository = reportingStructureRepository;
             _logger = logger;
         }
 
@@ -34,9 +34,13 @@ namespace challenge.Services
             return null;
         }*/
 
-            public Employee GetById(string id)        {
+            public ReportingStructure GetById(string id)        {
                             {
-            return _employeeContext.Employees.SingleOrDefault(e => e.EmployeeId == id);
+            //return _employeeContext.Employees.SingleOrDefault(e => e.EmployeeId == id);
+                ReportingStructure rs = new ReportingStructure();
+                rs.EmployeeId = "1234";
+                rs.NumberofReports = 1;
+                return(rs);
         }
         }
     }
