@@ -1,0 +1,27 @@
+Testing Scenerios
+
+Reporting
+  test with John Lennon  		response  4
+  Test with Paul McCartney      response  0
+  Test with Ringo Starr         response  2
+  
+Seeded Compensation table with following data
+  {
+    "employeeId": "16a596ae-edd3-4847-99fe-c4518e82c86f",
+    "compensation": "50000"
+  },
+  {
+    "employeeId": "b7839309-3348-463b-a7e3-5de1c168beb3",
+    "compensation": "40000"
+  },
+  {
+    "employeeId": "03aa1462-ffa9-4978-901b-7c001562cf6f",
+    "compensation": "40000"
+  },
+  {
+    "employeeId": "62c1084e-6e34-4630-93fd-9153afb65309",
+    "compensation": "30000"
+  },
+  {
+    "employeeId": "c0c2293d-16bd-4603-8e08-638a9d18b22c",
+    "compensation": "30000"  
