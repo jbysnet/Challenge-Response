@@ -14,3 +14,4 @@ C:\Users\Scott\Desktop\Mindex Code\sr-code-challenge-dotnet\code-challenge\obj\D
 C:\Users\Scott\Desktop\Mindex Code\sr-code-challenge-dotnet\code-challenge\obj\Debug\netcoreapp2.1\code-challenge.dll
 C:\Users\Scott\Desktop\Mindex Code\sr-code-challenge-dotnet\code-challenge\obj\Debug\netcoreapp2.1\code-challenge.pdb
 C:\Users\Scott\Desktop\Mindex Code\sr-code-challenge-dotnet\code-challenge\obj\Debug\netcoreapp2.1\code-challenge.genruntimeconfig.cache
+C:\Users\Scott\Desktop\Mindex Code\sr-code-challenge-dotnet\code-challenge\bin\Debug\netcoreapp2.1\resources\EmployeeCompensationSeedData.json
