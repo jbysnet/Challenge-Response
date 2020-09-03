@@ -32,6 +32,12 @@ namespace challenge.Repositories
             return _employeeContext.Employees.SingleOrDefault(e => e.EmployeeId == id);
         }
 
+        public int SumDirectReports(string id)
+        {
+            return 1234;
+            //return _employeeContext.Employees.SingleOrDefault(e => e.EmployeeId == id);
+        }
+
         public Task SaveAsync()
         {
             return _employeeContext.SaveChangesAsync();
